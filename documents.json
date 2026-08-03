@@ -1,0 +1,102 @@
+[
+  {
+    "topic": "Dance",
+    "text": "With short-form video transforming how dance is experienced, studios are evolving into creative spaces where dancers rehearse and film content.",
+    "id": 0
+  },
+  {
+    "topic": "Astronomy",
+    "text": "Space is stretching in all directions, meaning galaxies are moving further away from each other every second.",
+    "id": 1
+  },
+  {
+    "topic": "Cricket",
+    "text": "Cricket is a bat-and-ball sport that originated in 16th-century England, featuring a 22-yard pitch and iconic events like the International Cricket Council World Cups.",
+    "id": 0
+  },
+  {
+    "topic": "Fashion",
+    "text": "Invented in Persia in the 10th century, heels were designed to give wealthy men more height and status.",
+    "id": 1
+  },
+  {
+    "topic": "Computer Vision",
+    "text": "Computer vision is a field of artificial intelligence (AI) that trains computers to extract meaningful information, understand, and interpret digital images and videos like a human brain does.",
+    "id": 0
+  },
+  {
+    "topic": "NVIDIA",
+    "text": "Nvidia is making major headlines with a potential $250 billion backing deal for OpenAI, a partnership with Kawasaki for maritime AI, and a massive $500 billion order backlog for AI hardware.",
+    "id": 1
+  },
+  {
+    "topic": "Dance",
+    "text": "Many professional dance companies now offer hybrid training programs that combine in-studio instruction with online masterclasses, making elite technique accessible to students far from major cities.",
+    "id": 1
+  },
+  {
+    "topic": "Dance",
+    "text": "Improvisational dance forms like contact improvisation rely on partners responding to shifting weight and momentum in real time rather than following a set choreography.",
+    "id": 2
+  },
+  {
+    "topic": "Astronomy",
+    "text": "Black holes distort the space around them so severely that not even light can escape once it crosses the event horizon.",
+    "id": 2
+  },
+  {
+    "topic": "Astronomy",
+    "text": "Astronomers use spectroscopy to determine the chemical composition of distant stars by analyzing the specific wavelengths of light they emit and absorb.",
+    "id": 3
+  },
+  {
+    "topic": "Cricket",
+    "text": "A century, scoring 100 runs or more in a single innings, is considered one of the most prestigious individual achievements a batter can reach in cricket.",
+    "id": 1
+  },
+  {
+    "topic": "Cricket",
+    "text": "Twenty20 cricket was introduced in the early 2000s to create a faster, shorter format that could be completed in about three hours, drawing new audiences to the sport.",
+    "id": 2
+  },
+  {
+    "topic": "Fashion",
+    "text": "Sustainable fashion has grown as brands experiment with recycled fabrics, plant-based dyes, and take-back programs to reduce textile waste.",
+    "id": 0
+  },
+  {
+    "topic": "Fashion",
+    "text": "The little black dress became a wardrobe staple after designers popularized it in the early 20th century as a versatile, understated alternative to elaborate formalwear.",
+    "id": 2
+  },
+  {
+    "topic": "Computer Vision",
+    "text": "Convolutional neural networks became the dominant architecture for image recognition tasks because they can automatically learn spatial hierarchies of visual features.",
+    "id": 1
+  },
+  {
+    "topic": "Computer Vision",
+    "text": "Object detection models not only classify what appears in an image but also draw bounding boxes to pinpoint exactly where each object is located.",
+    "id": 2
+  },
+  {
+    "topic": "Computer Vision",
+    "text": "Facial recognition systems rely on identifying distinctive landmarks on a face, such as the distance between the eyes, to match a person against stored data.",
+    "id": 3
+  },
+  {
+    "topic": "NVIDIA",
+    "text": "Nvidia's GPUs, originally designed for rendering video game graphics, became the foundation of modern AI training because of their ability to process many parallel calculations at once.",
+    "id": 0
+  },
+  {
+    "topic": "NVIDIA",
+    "text": "The company's CUDA software platform allows developers to harness Nvidia hardware for general-purpose computing well beyond graphics rendering.",
+    "id": 2
+  },
+  {
+    "topic": "NVIDIA",
+    "text": "Nvidia's data center segment has grown to represent the largest share of its revenue, driven by demand from cloud providers building out AI infrastructure.",
+    "id": 3
+  }
+]
