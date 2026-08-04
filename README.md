@@ -46,3 +46,10 @@ embedding space colored by topic.
   cache is invalidated automatically if the corpus size changes.
 - Offline mode matches on shared vocabulary, not true meaning, so its search
   results and PCA clusters are noticeably less clean than API mode's.
+
+PCA Plot explanation
+
+![PCA plot of document embeddings colored by topic](Figure_1.png)
+
+The projected embeddings via the PCA plot show two distinct clusters for topics Dance, Astronomy and Cricket. There is very less overlap between them in the real world as well. Computer Vision and NVIDIA have certain overlap, since both deal with AI/hardware content and share vocabulary. Fashion is a less defined cluster, which could be due to overlap in vocabulary from each of the other clusters. Overall, semantically distant topics separate cleanly, while conceptually related topics show partial overlap. 
+

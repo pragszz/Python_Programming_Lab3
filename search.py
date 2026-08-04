@@ -3,8 +3,10 @@ from pathlib import Path
 import json
 from embeddings import get_embedding
 import matplotlib.pyplot as plt
+import os
 
 DOCUMENTS_FILE = "documents.json"
+EMBEDDINGS_CACHE_FILE = "embeddings_cache.json"
 
 # Documents.json file is constructed (load, embed)
 def load_documents(path=DOCUMENTS_FILE):
@@ -14,6 +16,17 @@ def load_documents(path=DOCUMENTS_FILE):
 
 def build_embedding_matrix(documents):
     raw_doc = load_documents(DOCUMENTS_FILE)
+
+    # Attempt to load from cache
+    if os.path.exists(EMBEDDINGS_CACHE_FILE):
+        with open(EMBEDDINGS_CACHE_FILE, "r", encoding="utf-8") as f:
+            cache = json.load(f)
+
+        if cache.get("num_documents") == len(raw_doc):
+            print("Loaded embeddings from cache.")
+            return np.array(cache["embeddings"])
+        
+
     embeddings = []
     for doc in raw_doc:
         text = doc["text"]
@@ -21,6 +34,12 @@ def build_embedding_matrix(documents):
         embeddings.append(embedding)
 
     embedding_matrix = np.stack(embeddings, axis =0)
+
+    with open(EMBEDDINGS_CACHE_FILE, "w", encoding="utf-8") as f:
+        json.dump({
+            "embeddings": embedding_matrix.tolist()
+        }, f)
+
     return embedding_matrix
 
 # Cosine Similarity
